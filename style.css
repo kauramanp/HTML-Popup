@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container img {
+    width: 100%;
+}
+
+
+.header {
+    font: 200 80px'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-wrap>div {
+    flex: 1;
+}
+
+.right-container {
+    margin: 30px;
+}
+
+li {
+    list-style: none;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+li:before {
+    font-weight: 900;
+    margin-right: 8px;
+    background: url('tick.png') no-repeat 0 0;
+
+}
+
+.right-container h1 {
+    color: #414042;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.right-container h3 {
+    color: #414042;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
